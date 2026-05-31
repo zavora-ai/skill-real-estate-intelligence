@@ -1,32 +1,9 @@
 ---
 name: real-estate-intelligence
 description: Orchestrate global property intelligence — search transactions, get valuations, compare markets, geocode locations, and analyze property data across US, UK, EU, Africa, Middle East, and Asia-Pacific. Use when searching properties, getting valuations, comparing real estate markets, checking transaction history, or analyzing neighborhood data.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-real-estate server connected (UK Land Registry, US Zillow/Redfin, UAE listings, World Bank, OpenStreetMap).
-allowed-tools:
-  - uk_search_transactions
-  - uk_average_price
-  - geocode_search
-  - reverse_geocode
-  - search_properties_nearby
-  - get_market_indicators
-  - compare_markets
-  - us_search_properties
-  - us_get_valuation
-  - us_sales_history
-  - me_search_listings
-tags:
-  - business
-  - real-estate
-  - property
-  - valuations
-  - markets
-  - global
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [uk_search_transactions, uk_average_price, geocode_search, reverse_geocode, search_properties_nearby, get_market_indicators, compare_markets, us_search_properties, us_get_valuation, us_sales_history, me_search_listings]
 metadata:
   author: Zavora AI
   mcp-server: mcp-real-estate
